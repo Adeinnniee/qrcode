@@ -1,1 +1,2 @@
-# nft preview card 
+# qr code clone 
+
