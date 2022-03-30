@@ -1,0 +1,112 @@
+*{box-sizing: border-box}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*giving the body a bg color*/
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+/*styling the qr container*/
+.qrcodecontainer{
+    margin: auto;
+    width: 39vh;
+    height: 65vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    margin-top: 6rem;
+}
+
+/*styling the qr image*/
+#qrimage{
+    margin: 0.7rem; 
+    width: 206px;
+    border-radius: 0.5rem;
+
+}
+/* giving the wordings their font colors */
+#heading{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+    margin: 0.7rem;
+}
+#info{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+    margin: 0.7rem;
+}
+
+
+@media screen and (max-width: 400px){
+    /*styling the qr container*/
+    .qrcodecontainer{
+        width: 55vh;
+        height: 84vh;
+        margin-top: 3rem;
+    }
+
+    /*styling the qr image*/
+    #qrimage{
+        margin: 0.8rem; 
+        width: 245px;
+    }
+
+    /* giving the wordings their font colors */
+    #heading{
+        margin: 0.7rem 1.2rem 0rem 1.2rem;
+        font-size: 18px;
+    }
+
+    #info{
+        margin: 0.7rem 1.5rem 0rem 1.2rem;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    /*styling the qr container*/
+    .qrcodecontainer{
+        width: 55vh;
+        height: 84vh;
+        margin-top: 3rem;
+    }
+
+    /*styling the qr image*/
+    #qrimage{
+        margin: 0.8rem; 
+        width: 245px;
+    }
+
+    /* giving the wordings their font colors */
+    #heading{
+        margin: 0.7rem 1.2rem 0rem 1.2rem;
+        font-size: 18px;
+    }
+
+    #info{
+        margin: 0.7rem 1.5rem 0rem 1.2rem;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 402px) and (max-width:1440px){
+
+    /*styling the qr container*/
+    .qrcodecontainer{
+        width: 46vh;
+        height: 73vh;
+        margin-top: 4rem;
+    }
+
+    /* giving the wordings their font colors */
+    #heading{
+        margin: 0.3rem 0.7rem 0.7rem 0.7rem;
+    }
+    #info{
+        font-size: 11px;
+        margin: 0.3rem 0.9rem 0.7rem 0.9rem;
+    }
+}
