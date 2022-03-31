@@ -1,0 +1,42 @@
+*{box-sizing: border-box}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*giving the body a bg color*/
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+/*styling the qr container*/
+.qrcodecontainer{
+    margin: auto;
+    width: 39vh;
+    height: 65vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    margin-top: 6rem;
+}
+
+/*styling the qr image*/
+#qrimage{
+    margin: 0.7rem; 
+    width: 206px;
+    border-radius: 0.5rem;
+
+}
+/* giving the wordings their font colors */
+#heading{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+    margin: 0.7rem;
+}
+#info{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+    margin: 0.7rem;
+}
+
+
